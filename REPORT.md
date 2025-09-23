@@ -1,4 +1,6 @@
 Questions
+
+
 Compare Makefiles
 
 Part 2: Direct compilation of all .c files into one executable.
@@ -18,3 +20,4 @@ Running nm on client_static
 If you see no separate symbols for mystrlen, etc., it means they’ve been copied directly into the executable.
 
 This shows that static linking embeds code into the binary (unlike dynamic linking, which keeps it separate).
+
